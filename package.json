@@ -2,9 +2,12 @@
   "name": "smart-brain-api",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://JacintoDesign.github.io/smart-brain-api/",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "pre-deploy": "npm run build",
+    "deploy": "deploy gh-pages -d build"
   },
   "keywords": [],
   "author": "",
