@@ -2,7 +2,7 @@
   "name": "smart-brain-api",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://JacintoDesign.github.io/smartbrain-api/",
+  "homepage": "https://JacintoDesign.github.io/smart-brain-api/",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
